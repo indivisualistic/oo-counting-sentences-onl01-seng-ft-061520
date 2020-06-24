@@ -24,4 +24,4 @@ class String
     #   s.length <2
     # end.count
   end 
-  
+end
