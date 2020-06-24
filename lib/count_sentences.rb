@@ -1,10 +1,9 @@
 require 'pry'
 
 class String
-# self.end_with?(".")
-self.length
-binding.pry
+
 end
+
 
 
   def sentence?
