@@ -1,9 +1,12 @@
 require 'pry'
 
 class String
+  Hi, my name is Sophie.end_with(".")
+end
+
 
   def sentence?
-    
+
   end
 
   def question?
