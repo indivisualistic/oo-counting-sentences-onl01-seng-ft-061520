@@ -2,11 +2,9 @@ require 'pry'
 
 class String
 
-end
-
-
-
   def sentence?
+    self.end_with?(".")
+
 
   end
 
