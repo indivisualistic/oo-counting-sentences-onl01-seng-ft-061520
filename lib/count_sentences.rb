@@ -1,7 +1,9 @@
 require 'pry'
 
 class String
-  self.end_with?(".")
+  def showing_self
+    puts self
+end
 end
 
 
