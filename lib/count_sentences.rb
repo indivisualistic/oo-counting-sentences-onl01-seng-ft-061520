@@ -22,7 +22,7 @@ class String
   def count_sentences
     self.split(/\.|\?|\!/).delete_if do |i|
        i.length <2
-    end.count_sentences 
+    end.count 
 
 
   end
