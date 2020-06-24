@@ -1,7 +1,7 @@
 require 'pry'
 
 class String
-self.end_with?(".")
+# self.end_with?(".")
 binding.pry
 end
 
