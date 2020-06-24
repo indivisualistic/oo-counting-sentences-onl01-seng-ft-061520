@@ -20,7 +20,6 @@ class String
   end
 
   def count_sentences
-    binding.pry
     self.split(/\.|\?|\!/).delete_if do |i|
        i.length <2
     end.count 
