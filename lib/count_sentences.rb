@@ -15,11 +15,14 @@ class String
 
   def exclamation?
     self.end_with?("!")
-    
+
 
   end
 
   def count_sentences
+    binding.pry
+    self.split(/\.|\?|\!/)
+
 
   end
 end
